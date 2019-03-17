@@ -1,4 +1,4 @@
-package aufgabeZwei;
+package aufgabeDrei;
 
 import static org.junit.Assert.assertTrue;
 

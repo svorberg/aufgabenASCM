@@ -1,7 +1,12 @@
-package aufgabeZwei;
+package aufgabeDrei;
 
 import java.util.Objects;
 
+/**
+ * 
+ * Flear, wie in der PDF angegeben, jedoch ohne "Item", Item fehlte in der PDF?
+ *
+ */
 public class Flear {
 	String name;
 	float price;

@@ -18,6 +18,13 @@ public class Main {
 		jsonOutputForAscm(onlyIn1, onlyIn2, inBoth);
 	}
 
+	/**
+	 * Gibt JSON auf Console aus
+	 * 
+	 * @param onlyIn1
+	 * @param onlyIn2
+	 * @param inBoth
+	 */
 	public static void jsonOutputForAscm(ArrayList<String> onlyIn1, ArrayList<String> onlyIn2,
 			ArrayList<String> inBoth) {
 
@@ -59,6 +66,15 @@ public class Main {
 
 	}
 
+	/**
+	 * Gibt alle Objekte zurück die nur in Liste a stehen.
+	 * 
+	 * @param a
+	 *            - ArrayList
+	 * @param b
+	 *            - ArrayList
+	 * @return ArrayList
+	 */
 	public static ArrayList<String> getComparedAMinusB(ArrayList<String> a, ArrayList<String> b) {
 		ArrayList<String> list = new ArrayList<>();
 		for (String s1 : a) {
@@ -77,6 +93,15 @@ public class Main {
 		return list;
 	}
 
+	/**
+	 * Gibt alle Objekte zurück die in beiden Listen stehen
+	 * 
+	 * @param a
+	 *            - ArrayList
+	 * @param b
+	 *            - ArrayList
+	 * @return ArrayList
+	 */
 	public static ArrayList<String> getComparedAAndB(ArrayList<String> a, ArrayList<String> b) {
 		ArrayList<String> list = new ArrayList<>();
 		for (String s1 : a) {
@@ -93,6 +118,8 @@ public class Main {
 	}
 
 	/**
+	 * Liest die Datei unter dem angegebenen Pfad zeilenweise ein und gibt die
+	 * Zeilen als ArrayList zurück
 	 * 
 	 * @param path
 	 *            of File
